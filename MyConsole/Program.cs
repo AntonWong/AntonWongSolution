@@ -10,7 +10,10 @@ namespace MyConsole
     {
         static void Main(string[] args)
         {
-           
+            var list = new List<string>();
+            var quey = (from c in list
+                where c.Length == 1
+                select c).Take(10);
         }
 
     }
