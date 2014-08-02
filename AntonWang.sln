@@ -8,6 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "≤‚ ‘", "≤‚ ‘", "{9AB71A22-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{123CF0F0-B49B-481A-80B2-952F2AD83FF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{490BD80B-5D92-4220-B3F7-2F10ADF75BB9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
