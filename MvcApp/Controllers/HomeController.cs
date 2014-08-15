@@ -11,7 +11,7 @@ namespace MvcApp.Controllers
     [Export]
     public class HomeController : Controller
     {
-        [Import] 
+        [Import]
         public IUser User { get; set; }
 
 

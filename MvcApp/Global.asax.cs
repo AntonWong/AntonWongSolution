@@ -27,7 +27,7 @@ namespace MvcApp
             MefDependencySolver solver = new MefDependencySolver(catalog);
             //MVC依赖注入
             DependencyResolver.SetResolver(solver);
-
+		//AddTest
         }
     }
 }
