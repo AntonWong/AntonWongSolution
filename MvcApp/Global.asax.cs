@@ -28,6 +28,8 @@ namespace MvcApp
             //MVC依赖注入
             DependencyResolver.SetResolver(solver);
 		//AddTest测试gggggggggggggggg
+
+//AddTest测试gggggggggggggggg
         }
     }
 }
