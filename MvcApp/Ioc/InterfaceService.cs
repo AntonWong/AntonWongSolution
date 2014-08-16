@@ -13,7 +13,7 @@ namespace MvcApp.Ioc
         String UserName();
     }
 
-    [Export(typeof(IUser2))]
+    [Export(typeof(IUser))]
     public class UserService : IUser
     {
 
