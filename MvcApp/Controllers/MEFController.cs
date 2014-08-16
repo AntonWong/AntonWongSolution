@@ -12,7 +12,7 @@ namespace MvcApp.Controllers
     /// MEFIOC
     /// </summary>
     [Export]
-    public class Default1Controller : Controller
+    public class MEFController : Controller
     {
         [Import]
         public IUser User { get; set; }
