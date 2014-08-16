@@ -37,7 +37,7 @@ namespace MvcApp.Controllers
             }
             return RedirectToAction("Login");
         }
-
+        [Authorize(Roles = "1,2,3")]
         public ActionResult UserPage()
         {
             ViewData["user"] = User.Identity.Name;
@@ -52,7 +52,12 @@ namespace MvcApp.Controllers
             ViewData["role"] = role;
             return View();
         }
-
+        [Authorize(Roles = "1,2,3")]
+        public ActionResult Role()
+        {
+            ViewData["user"] = User.Identity.Name;
+            return View();
+        }
         public ActionResult NotAllowed()
         {
             return View();
