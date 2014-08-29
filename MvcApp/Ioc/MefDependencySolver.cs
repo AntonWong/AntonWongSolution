@@ -24,6 +24,7 @@ namespace MvcApp.Ioc
             {
                 if (!HttpContext.Current.Items.Contains(MefContainerKey))
                 {
+                    //加上 CompositionOptions.DisableSilentRejection 参数，就有详细的IOC配置报错信息 ？？？
                     HttpContext.Current.Items.Add(MefContainerKey, new CompositionContainer(_catalog, CompositionOptions.DisableSilentRejection));//
                 }
                 CompositionContainer container = (CompositionContainer)HttpContext.Current.Items[MefContainerKey];
