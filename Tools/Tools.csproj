@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ExpressionTree\TypeSystem.cs" />
     <Compile Include="ExpressionTree\Query.cs" />
+    <Compile Include="Extendsions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ExpressionTree\QueryProvider.cs" />
   </ItemGroup>
