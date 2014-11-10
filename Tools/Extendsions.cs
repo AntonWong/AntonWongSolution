@@ -27,7 +27,6 @@ namespace Tools
                 {
                     DbEntityEntry<TEntity> entry = dbContext.Entry(entity);
                     dbContext.Configuration.ValidateOnSaveEnabled = false;
-
                     entry.State = EntityState.Unchanged;
                     foreach (var memberInfo in memberInfos)
                     {

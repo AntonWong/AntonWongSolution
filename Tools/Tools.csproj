@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CookComputing.XmlRpc">
+      <HintPath>..\DLL\CookComputing.XmlRpc.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
@@ -45,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,49 +56,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dynamic\DynamicQueryable.cs" />
     <Compile Include="ExceptionMessage.cs" />
-    <Compile Include="ExpressionTree\TypeSystem.cs" />
-    <Compile Include="ExpressionTree\Query.cs" />
     <Compile Include="Extendsions.cs" />
-    <Compile Include="Extensions\BatchExtensions.cs" />
-    <Compile Include="Extensions\DataRecordExtensions.cs" />
-    <Compile Include="Extensions\ExpressionExtensions.cs" />
-    <Compile Include="Extensions\ObjectContextExtensions.cs" />
-    <Compile Include="Extensions\ObjectQueryExtensions.cs" />
-    <Compile Include="IContainer.cs" />
-    <Compile Include="Interface1.cs" />
-    <Compile Include="Locator.cs">
+    <Compile Include="MetaWeblogAPI\Class1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MetaWeblogAPI\IMetaWeblog.cs" />
+    <Compile Include="MetaWeblogAPI\MetaWeblog.cs" />
+    <Compile Include="MetaWeblogAPI\MetaWeblogModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\DelegateFactory.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Mapping\EntityMap.cs" />
-    <Compile Include="Mapping\IMappingProvider.cs" />
-    <Compile Include="Mapping\MappingResolver.cs" />
-    <Compile Include="Mapping\MetadataMappingProvider.cs" />
-    <Compile Include="Mapping\PropertyMap.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ExpressionTree\QueryProvider.cs" />
-    <Compile Include="Batch\IBatchRunner.cs" />
-    <Compile Include="Batch\SqlServerBatchRunner.cs" />
-    <Compile Include="Reflection\DelegateFactory.cs" />
-    <Compile Include="Reflection\DynamicProxy.cs" />
-    <Compile Include="Reflection\FieldAccessor.cs" />
-    <Compile Include="Reflection\ILGeneratorExtensions.cs" />
-    <Compile Include="Reflection\IMemberAccessor.cs" />
-    <Compile Include="Reflection\IMemberInfo.cs" />
-    <Compile Include="Reflection\IMethodAccessor.cs" />
-    <Compile Include="Reflection\LateBinder.cs" />
-    <Compile Include="Reflection\MemberAccessor.cs" />
-    <Compile Include="Reflection\MethodAccessor.cs" />
-    <Compile Include="Reflection\ObjectCloner.cs" />
-    <Compile Include="Reflection\ObjectCopier.cs" />
-    <Compile Include="Reflection\PropertyAccessor.cs" />
-    <Compile Include="Reflection\ReflectionHelper.cs" />
-    <Compile Include="Reflection\TypeAccessor.cs" />
+    <Compile Include="Reflection\DynamicProxy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\FieldAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\ILGeneratorExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\IMemberAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\IMemberInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\IMethodAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\LateBinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\MemberAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\MethodAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\ObjectCloner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\ObjectCopier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\PropertyAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\ReflectionHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reflection\TypeAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
