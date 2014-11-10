@@ -8,14 +8,10 @@ namespace MyConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            var list = new List<string>();
-            var quey = (from c in list
-                where c.Length == 1
-                select c).Take(10);
-        }
 
+        }
     }
 
     #region 属性赋值
