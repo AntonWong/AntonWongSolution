@@ -3,7 +3,6 @@ using System.Data.Entity;
 using System.Linq;
 using Code_First.Migrations;
 using Code_First.Models;
-using Tools;
 
 namespace Code_First
 {
@@ -11,8 +10,7 @@ namespace Code_First
     {
         private static void Main()
         {
-            try
-            {
+           
                 Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Configuration>());
                 using (var db = new DataContext())
                 {
@@ -21,12 +19,7 @@ namespace Code_First
                     db.Members.Count());
                 }
               
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(new ExceptionMessage(e));
-            }
-
+            
         }
     }
 }

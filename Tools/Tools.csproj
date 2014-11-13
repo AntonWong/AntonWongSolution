@@ -57,59 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExceptionMessage.cs" />
-    <Compile Include="Extendsions.cs" />
-    <Compile Include="MetaWeblogAPI\Class1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="MetaWeblogAPI\IMetaWeblog.cs" />
-    <Compile Include="MetaWeblogAPI\MetaWeblog.cs" />
-    <Compile Include="MetaWeblogAPI\MetaWeblogModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reflection\DelegateFactory.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\DynamicProxy.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\FieldAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\ILGeneratorExtensions.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\IMemberAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\IMemberInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\IMethodAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\LateBinder.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\MemberAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\MethodAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\ObjectCloner.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\ObjectCopier.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\PropertyAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\ReflectionHelper.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Reflection\TypeAccessor.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
