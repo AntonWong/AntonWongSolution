@@ -1,7 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{5DCEDAC3-CF47-4A17-8D1B-B59A308FA3EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsole", "MyConsole\MyConsole.csproj", "{A29BCA91-8562-47F9-8233-AEDABB8EA2CD}"
@@ -20,6 +18,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_First", "Code_First\Code_First.csproj", "{45DEE3D6-C0F2-413C-AF36-83F77CCC20F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{84A3E816-7AF4-4860-80FC-412607502BAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{772FA553-A16D-4884-9F89-945555DD4FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "API\WebAPI_HTTP_Basic_Authorize\WebAPI\WebAPI.csproj", "{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingRoomModel", "MeetingRoomModel\MeetingRoomModel.csproj", "{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{84E94F29-F4F4-477E-8A3A-A789726171A0}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -51,11 +57,26 @@ Global
 		{84A3E816-7AF4-4860-80FC-412607502BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A3E816-7AF4-4860-80FC-412607502BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A3E816-7AF4-4860-80FC-412607502BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E94F29-F4F4-477E-8A3A-A789726171A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E94F29-F4F4-477E-8A3A-A789726171A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E94F29-F4F4-477E-8A3A-A789726171A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E94F29-F4F4-477E-8A3A-A789726171A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{123CF0F0-B49B-481A-80B2-952F2AD83FF3} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
+		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
+		{84E94F29-F4F4-477E-8A3A-A789726171A0} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
+		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9} = {772FA553-A16D-4884-9F89-945555DD4FB6}
 	EndGlobalSection
 EndGlobal
