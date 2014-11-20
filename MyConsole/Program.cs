@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace MyConsole
 {
-    class Program
+    class Program111111
     {
 
         static int threadID = 0;
@@ -21,7 +21,7 @@ namespace MyConsole
         static extern bool TerminateThread(IntPtr hThread, uint dwExitCode);
 
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.Out.WriteLine("Forking off threads...");
             for (int i = 0; i < 2; i++)
