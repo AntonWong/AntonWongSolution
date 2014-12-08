@@ -56,7 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionMessage.cs" />
+    <Compile Include="MetaWeblogAPI\IMetaWeblog.cs" />
+    <Compile Include="MetaWeblogAPI\MetaWeblog.cs" />
+    <Compile Include="MetaWeblogAPI\MetaWeblogProxy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MetaWeblogAPI\Structs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
