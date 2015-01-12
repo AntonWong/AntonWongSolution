@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="MvcApplication4.Service.ServiceSendUsersvc" CodeBehind="ServiceSendUsersvc.svc.cs" %>
