@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\Wc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "设计模式", "设计模式\设计模式.csproj", "{C30D85C9-5E2B-4B4D-9A95-4DB0018961C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{5FD737E0-DF13-45A8-BE42-B8BE6153D585}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -75,6 +77,10 @@ Global
 		{C30D85C9-5E2B-4B4D-9A95-4DB0018961C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30D85C9-5E2B-4B4D-9A95-4DB0018961C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30D85C9-5E2B-4B4D-9A95-4DB0018961C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD737E0-DF13-45A8-BE42-B8BE6153D585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD737E0-DF13-45A8-BE42-B8BE6153D585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD737E0-DF13-45A8-BE42-B8BE6153D585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD737E0-DF13-45A8-BE42-B8BE6153D585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{123CF0F0-B49B-481A-80B2-952F2AD83FF3} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
 		{FA5DFF38-C7B5-46AF-AA87-D210C2BE56AB} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
+		{5FD737E0-DF13-45A8-BE42-B8BE6153D585} = {9AB71A22-7CAA-4E6B-8E10-DC1B9E9EF346}
 		{933EF3F7-A7E7-4DE8-9023-5E690B34B8A9} = {772FA553-A16D-4884-9F89-945555DD4FB6}
 	EndGlobalSection
 EndGlobal
